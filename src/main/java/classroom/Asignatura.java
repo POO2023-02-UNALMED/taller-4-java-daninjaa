@@ -13,7 +13,7 @@ public class Asignatura {
     }
 
     public Asignatura(int codigoExterno,Tipo tipo) {
-        this("Sin nombre", codigoExterno, 0,tipo);
+        this("Sin nombre", 0, codigoExterno, tipo);
     }
 
     public Asignatura(Tipo tipo) {
